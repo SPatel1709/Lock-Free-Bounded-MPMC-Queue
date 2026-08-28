@@ -1,0 +1,76 @@
+items=100000, measured runs=1 (one warmup per scenario)
+
+   mpmc_padded cap=  64  1P/1C  median=155.56 M ops/s
+ mpmc_unpadded cap=  64  1P/1C  median=53.98 M ops/s
+         mutex cap=  64  1P/1C  median=20.16 M ops/s
+   mpmc_padded cap=  64  2P/2C  median=42.68 M ops/s
+ mpmc_unpadded cap=  64  2P/2C  median=18.30 M ops/s
+         mutex cap=  64  2P/2C  median=12.36 M ops/s
+   mpmc_padded cap=  64  4P/4C  median=28.65 M ops/s
+ mpmc_unpadded cap=  64  4P/4C  median=23.81 M ops/s
+         mutex cap=  64  4P/4C  median=7.66 M ops/s
+   mpmc_padded cap=  64  8P/8C  median=27.89 M ops/s
+ mpmc_unpadded cap=  64  8P/8C  median=19.25 M ops/s
+         mutex cap=  64  8P/8C  median=17.29 M ops/s
+   mpmc_padded cap=  64  1P/4C  median=20.86 M ops/s
+ mpmc_unpadded cap=  64  1P/4C  median=16.86 M ops/s
+         mutex cap=  64  1P/4C  median=4.76 M ops/s
+   mpmc_padded cap=  64  4P/1C  median=38.87 M ops/s
+ mpmc_unpadded cap=  64  4P/1C  median=22.04 M ops/s
+         mutex cap=  64  4P/1C  median=5.93 M ops/s
+   mpmc_padded cap= 256  1P/1C  median=97.92 M ops/s
+ mpmc_unpadded cap= 256  1P/1C  median=44.81 M ops/s
+         mutex cap= 256  1P/1C  median=12.92 M ops/s
+   mpmc_padded cap= 256  2P/2C  median=53.87 M ops/s
+ mpmc_unpadded cap= 256  2P/2C  median=18.64 M ops/s
+         mutex cap= 256  2P/2C  median=17.82 M ops/s
+   mpmc_padded cap= 256  4P/4C  median=31.21 M ops/s
+ mpmc_unpadded cap= 256  4P/4C  median=20.83 M ops/s
+         mutex cap= 256  4P/4C  median=13.51 M ops/s
+   mpmc_padded cap= 256  8P/8C  median=26.28 M ops/s
+ mpmc_unpadded cap= 256  8P/8C  median=19.16 M ops/s
+         mutex cap= 256  8P/8C  median=26.24 M ops/s
+   mpmc_padded cap= 256  1P/4C  median=23.26 M ops/s
+ mpmc_unpadded cap= 256  1P/4C  median=20.01 M ops/s
+         mutex cap= 256  1P/4C  median=9.78 M ops/s
+   mpmc_padded cap= 256  4P/1C  median=30.68 M ops/s
+ mpmc_unpadded cap= 256  4P/1C  median=21.94 M ops/s
+         mutex cap= 256  4P/1C  median=10.51 M ops/s
+   mpmc_padded cap=1024  1P/1C  median=292.31 M ops/s
+ mpmc_unpadded cap=1024  1P/1C  median=84.49 M ops/s
+         mutex cap=1024  1P/1C  median=15.91 M ops/s
+   mpmc_padded cap=1024  2P/2C  median=26.97 M ops/s
+ mpmc_unpadded cap=1024  2P/2C  median=18.32 M ops/s
+         mutex cap=1024  2P/2C  median=27.66 M ops/s
+   mpmc_padded cap=1024  4P/4C  median=39.52 M ops/s
+ mpmc_unpadded cap=1024  4P/4C  median=20.93 M ops/s
+         mutex cap=1024  4P/4C  median=24.01 M ops/s
+   mpmc_padded cap=1024  8P/8C  median=20.63 M ops/s
+ mpmc_unpadded cap=1024  8P/8C  median=16.63 M ops/s
+         mutex cap=1024  8P/8C  median=26.50 M ops/s
+   mpmc_padded cap=1024  1P/4C  median=22.04 M ops/s
+ mpmc_unpadded cap=1024  1P/4C  median=14.72 M ops/s
+         mutex cap=1024  1P/4C  median=15.98 M ops/s
+   mpmc_padded cap=1024  4P/1C  median=31.31 M ops/s
+ mpmc_unpadded cap=1024  4P/1C  median=12.02 M ops/s
+         mutex cap=1024  4P/1C  median=14.35 M ops/s
+   mpmc_padded cap=4096  1P/1C  median=88.98 M ops/s
+ mpmc_unpadded cap=4096  1P/1C  median=53.42 M ops/s
+         mutex cap=4096  1P/1C  median=21.50 M ops/s
+   mpmc_padded cap=4096  2P/2C  median=53.39 M ops/s
+ mpmc_unpadded cap=4096  2P/2C  median=24.09 M ops/s
+         mutex cap=4096  2P/2C  median=29.02 M ops/s
+   mpmc_padded cap=4096  4P/4C  median=90.37 M ops/s
+ mpmc_unpadded cap=4096  4P/4C  median=29.48 M ops/s
+         mutex cap=4096  4P/4C  median=20.30 M ops/s
+   mpmc_padded cap=4096  8P/8C  median=25.68 M ops/s
+ mpmc_unpadded cap=4096  8P/8C  median=20.58 M ops/s
+         mutex cap=4096  8P/8C  median=22.06 M ops/s
+   mpmc_padded cap=4096  1P/4C  median=25.47 M ops/s
+ mpmc_unpadded cap=4096  1P/4C  median=19.12 M ops/s
+         mutex cap=4096  1P/4C  median=16.68 M ops/s
+   mpmc_padded cap=4096  4P/1C  median=39.56 M ops/s
+ mpmc_unpadded cap=4096  4P/1C  median=35.73 M ops/s
+         mutex cap=4096  4P/1C  median=28.41 M ops/s
+
+CSV written to results/validation.csv
